@@ -22,8 +22,8 @@ env:
   GKE_ZONE: us-east4-c
   GKE_CLUSTER: chad-cluster 
   IMAGE: chad-container
-  REGISTRY_HOSTNAME: gcr.io
-  DEPLOYMENT_NAME: gke-test
+  REGISTRY_HOSTNAME: us.gcr.io
+  DEPLOYMENT_NAME: chad-deployment
 
 jobs:
   setup-build-publish-deploy:
